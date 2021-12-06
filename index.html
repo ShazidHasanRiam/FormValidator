@@ -6,13 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
-
+    <div class="container">
+        <h1>Sign Up Now!</h1>
+        <!-- Form -->
+        <form id="form">
+            <!-- firstName & lastName -->
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Last Name">
+            </div>
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Your Valid Email">
+            </div>
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Your Phone Number">
+            </div>
+            <!-- Website -->
+            <div class="form-group">
+                <label for="website">Website URL</label>
+                <input type="url" id="website" placeholder="Your Website URL">
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label for="createPassword">Create Password</label>
+                <input type="password" id="createPassword" placeholder="Create Password">
+            </div>
+            <!-- Confirm Password -->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Retype your password">
+            </div>
+            <button type="submit"> Sign Up</button>
+        </form>
+        <!-- Error/Successful Message -->
+        <div class="message-container">
+            <h3 id="message">Don't Hesitate to Sign Up!</h3>
+        </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
