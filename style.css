@@ -94,7 +94,7 @@ button:focus {
 }
 
 .message-container {
-    border: 1.2px solid #675EF3;
+    border: 1px solid #675EF3;
     border-radius: 5px;
     width: 90%;
     margin-top: 10px;
